@@ -1,0 +1,101 @@
+@import url("https://use.typekit.net/dev8qvd.css");
+@charset "utf-8";
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Acumin Pro, sans-serif;
+    height: 100%;
+    width: 95%;
+    letter-spacing: 0.02em;
+    line-height: normal;
+    overflow: hidden;
+    /**
+    background: hsla(360, 100%, 100%, 0.0);
+    background-image: radial-gradient(hsla(0, 100%, 0%, 0.8) 4%, transparent 0);
+    background-size: 30px 30px; 
+    **/
+}
+
+.h1 {
+    position: absolute;
+    z-index: 100;
+}
+
+h1 {
+    font-size: 9.3vmin;
+    color: blue;
+    letter-spacing: -0.05em;
+    font-weight: 300;
+    z-index: 100000;
+}
+
+main{
+    position:relative;
+    width: 95%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.site-content {
+    position: relative;
+    
+}
+
+.imgfloat2{
+    position: absolute;
+    width: 600px;
+    height: 340px;
+    left: 75px;
+    top: 200px;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover span {
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1:hover{
+    cursor: default;
+}
+
+@media (min-width: 100%){
+    .site-content {
+        display: flex;
+        flex-direction: row;
+    }
+    main {
+        flex-basis: 70%;
+        
+    }
+
+    }
+
+
+::selection {
+  color: red;
+}
+::-moz-selection {
+  color: red;
+}
